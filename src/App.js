@@ -54,7 +54,7 @@ function App() {
         
           <p> Good with strangers: {dogInfo.good_with_strangers}/5</p>
           <p> Playfulness: {dogInfo.playfulness}/5</p>
-          <p> Min life expectancy {dogInfo.min_life_expectancy}/</p>
+          <p> Min life expectancy {dogInfo.min_life_expectancy}/20</p>
 
     
           <p><img src={dogInfo.image_link} alt={dogInfo.name} /></p>
